@@ -1,0 +1,257 @@
+/* config-font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+/* config-body */
+body {
+  color: #FFFFFF;
+  background-color: #1c1c1c;
+
+  font-family: 'Oswald', sans-serif;
+}
+
+/* config-header */
+header {
+  height: 15vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.systemHome {
+  width: 2.5vw;
+
+  position: absolute;
+  top: 3%;
+  left: 2%;
+}
+.systemHome:hover {
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+
+  font-size: 2em;
+}
+
+/* config-main */
+main {
+  height: 70vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.calContainer {
+  width: 28vw;
+  height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 0 auto;
+
+  background-color: #7B68EE;
+  border-radius: 20px;
+}
+
+.configsBox {
+  width: 100%;
+  height: 5%;
+}
+
+.visorBox {
+  width: 100%;
+  height: 15%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  color: black;
+  background-color: #A192FB;
+}
+
+.visorOld {
+  width: 100%;
+  height: 30%;
+
+  font-size: 0.8em;
+  
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.textNumOld {
+  width: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.symbOld {
+  width: 3%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visorEqualOld {
+  width: 3%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.operationResult {
+  width: 15%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visorNew {
+  width: 100%;
+  height: 70%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.clearCalc {
+  width: 8%;
+
+  position: relative;
+  left: -20%;
+}
+.clearCalc:hover {
+  cursor: pointer;
+}
+
+.textNum {
+  width: 15%;
+  height: 25%;
+
+  font-size: 1.2em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.symb {
+  width: 5%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visorEqual {
+  width: 5%;
+  
+  font-size: 1.8em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.operationResult {
+  width: 25%;
+  height: 25%;
+
+  font-size: 1.2em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonsBox {
+  width: 90%;
+  height: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.buttonsMiniBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonNumber {
+  width: 5vw;
+  height: 4.5vw;
+  
+  background-color: #A192FB;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 2px rgb(37, 37, 37);
+}
+.buttonNumber:hover {
+  cursor: pointer;
+  box-shadow: 6px 6px 2px rgb(37, 37, 37);
+}
+
+.buttonIcon {
+  width: 1.5vw;
+}
+
+.operatCalc {
+  width: 1vw;
+}
+
+.buttonZero {
+  width: 7vw;
+  height: 4.5vw;
+  
+  background-color: #A192FB;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 4px 4px 2px rgb(37, 37, 37);
+}
+.buttonZero:hover {
+  cursor: pointer;
+  box-shadow: 6px 6px 2px rgb(37, 37, 37);
+}
+
+.buttonEqual {
+  width: 9vw;
+  height: 4.5vw;
+  
+  background-color: #A192FB;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 4px 4px 2px rgb(37, 37, 37);
+}
+.buttonEqual:hover {
+  cursor: pointer;
+  box-shadow: 6px 6px 2px rgb(37, 37, 37);
+}
+
+/* config-footer */
+footer {
+  height: 15vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy {
+  font-size: 1em;
+  font-weight: bold;
+}
